@@ -1,0 +1,82 @@
+body {
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    padding: 100px;
+}
+
+h1 {
+    padding-bottom: 40px;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+}
+
+.ohYeah {
+    height: 100px;
+    width: 140px;
+    border: 1px solid;
+    align-items: center;
+    padding: 22px;
+    margin: 9px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+}
+
+.squarescoring,
+.hypotenuse,
+.ScoreClick {
+    padding-top: 25px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+nav ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+}
+
+.form {
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.colm-30 {
+    float: left;
+    width: 30%;
+    margin-top: 8px;
+}
+
+.colm-80 {
+    float: left;
+    width: 80%;
+    margin: 8px;
+}
+
+.baris:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+label {
+    padding: 14px 14px 14px 0px;
+}

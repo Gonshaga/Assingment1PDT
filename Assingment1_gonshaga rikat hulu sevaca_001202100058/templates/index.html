@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='utf-8'>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='open/style.css') }}">
+</head>
+<body>
+    <header><h1>Welcome Welcome</h1></header>
+    <div class="container">
+        <a href="/convertScoring">
+            <div class="ohYeah">
+                <img src="{{ url_for('static', filename='image/ScoreClick.jpg') }}" alt="">
+                <p>Converting The Score</p>
+            </div>
+        </a>
+        <a href="/rootSquare">
+            <div class="ohYeah">
+                <img src="{{ url_for('static', filename='image/squareroot.jfif') }}" alt="">
+                <p>Square Root the number</p>
+            </div>
+        </a>
+        <a href="/hypotenuse">
+            <div class="ohYeah">
+                <img src="{{ url_for('static', filename='image/hypotenuse.jfif') }}" alt="">
+                <p>Hypotenuse the Number</p>
+            </div>
+        </a>
+    </div>  
+</body>
+</html>

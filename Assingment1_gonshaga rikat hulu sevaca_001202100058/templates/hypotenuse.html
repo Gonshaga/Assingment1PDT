@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/convertScoring">Convert the Score</a></li>
+            <li><a href="/rootSquare">Find The Square Root</a></li>
+            <li><a href="/hypotenuse">Find the hypotenuse</a></li>
+        </ul>
+    </nav>
+    <section class="form">
+        <div class="baris">
+            <div class="colm-30">
+                <label for="base">Base</label>
+            </div>
+            <div class="colm-80">
+                <input type="number" id="base" name="base" placeholder="input the Base...">
+            </div>
+        </div>
+        <div class="baris">
+            <div class="colm-30">
+                <label for="altitude">Altitude</label>
+            </div>
+            <div class="colm-80">
+                <input type="number" id="altitude" name="altitude" placeholder="Enter the altitude">
+            </div>
+        </div>
+        <div class="baris">
+            <div class="colm-30">
+                <label for="hypotenuseResult">Result</label>
+            </div>
+            <div class="colm-80">
+                <input type="text" id="hypotenuseResult" name="hypotenuseResult" placeholder="The Result is" readonly>
+            </div>
+        </div>
+        <div class="baris">
+            <input type="button" onclick="hypotenuse()" value="Convert the hypotenuse">
+        </div>
+    </section>
+</body>
+</html>
